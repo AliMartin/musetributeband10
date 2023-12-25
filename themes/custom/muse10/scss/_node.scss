@@ -1,0 +1,121 @@
+// Background images
+body {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: inherit;
+}
+
+.mm-page,
+.mm-wrapper_background body {
+  background-color: inherit;
+}
+
+
+// Shows
+body.page-node-type-show {
+  background-image: url(/themes/custom/muse10/backgrounds/muse-tribute-9.jpg);
+
+  .field--name-field-date {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .field--name-field-venue {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+  }
+
+  .field--name-field-address {
+    margin-bottom: 15px;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+h1,
+h2,
+h3 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 45px;
+    letter-spacing: 2px;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight !important;
+    text-transform: uppercase;
+    text-align: center;
+    &:before,
+    &:after {
+        display: block;
+        content: "";
+        width: 100%;
+        height: 6px;
+        background-color: $white;
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+
+// Main content panel if context flag equals "text-page"
+body.text-page .region-content {
+  margin: 55vh auto 60px auto;
+  max-width: 850px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 45px 30px 45px 30px;
+  font-size: 1rem;
+  text-align: center;
+
+  article.media {
+    margin-bottom: 1rem;
+  }
+}
+
+
+// News
+.field--name-field-teaser {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 700;
+  font-size: x-large;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+body.page-node-type-news .field--name-field-media-image img {
+  border-radius: 10px;
+}
+
+
+// Gallery
+#blazy-node-gallery-gallery-full-colorbox {
+  margin-bottom: 60px;
+
+  li {
+    border: 3px solid $white;
+  }
+}
+
+
+// Contact
+body.page-node-type-webform .region-content {
+  margin: 25vh auto 60px auto;
+  max-width: 850px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 45px 30px 45px 30px;
+  font-size: 1rem;
+  text-align: center;
+
+  article.media {
+    margin-bottom: 1rem;
+  }
+}

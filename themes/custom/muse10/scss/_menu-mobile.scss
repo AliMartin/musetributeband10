@@ -1,0 +1,47 @@
+#navbarSupportedContent > div {
+  display: flex;
+}
+
+#block-muse10-responsivemenumobileicon {
+  span.label {
+    display: none;
+  }
+}
+
+
+.mm-menu {
+  a.mm-navbar__title {
+    display: inline-grid;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    color: $white;
+    margin: 30px 15px 15px 15px;
+
+    &:before,
+    &:after {
+      display: block;
+      content: "";
+      height: 3px;
+      background-color: $white;
+    }
+  }
+
+  .mm-navbar {
+    border: none;
+  }
+
+  ul.mm-listview a {
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: $font-weight-bold;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    color: $white;
+  }
+  
+  .mm-listitem::after {
+    border: none;
+  }
+}

@@ -1,0 +1,228 @@
+.view-shows {
+  max-width: 650px;
+  margin: 0 auto 60px auto;
+
+  .views-row {
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .show-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .date-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 120px;
+  }
+
+  .show-day {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: 48px;
+  }
+
+  .show-month {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .location-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .location {
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    font-size: 28px;
+  }
+
+  .ticket-wrapper {
+    min-width: 156px;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .view-shows {
+    .views-row {
+      padding: 15px 15px 5px 15px;
+    }
+    .show-wrapper {
+      flex-direction: column;
+      justify-content: center;
+
+      .show-day {
+        font-size: 36px;
+      }
+
+      .location-wrapper {
+        text-align: center;
+      }
+
+      .location {
+        font-size: 24px;
+      }
+
+      .ticket-link a {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+
+.view-news,
+.view-gallery {
+  margin: 0 auto 60px auto;
+
+  .view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .views-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+  }
+
+  .views-field-title {
+    font-weight: $font-weight-bold;
+    font-size: large;
+    padding: 0 20px;
+  }
+
+  .views-field-field-teaser {
+    padding: 0 20px;
+  }
+
+  .views-field-view-node {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+
+.view-gallery {
+  .views-field-title {
+    text-transform: uppercase;
+    font-size: x-large;
+    line-height: 1.2;
+    letter-spacing: 2px;
+  }
+}
+
+.view-media-page {
+  margin: 0 auto 60px auto;
+
+  .view-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .views-row {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 400px;
+    gap: 10px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+  }
+
+  .views-field-rendered-entity:has(.media--type-remote-video) {
+    height: 225px;
+    margin-bottom: 10px;
+  }
+
+  .field--name-field-media-oembed-video iframe {
+    height: 225px !important;
+  }
+
+  .views-field-bundle {
+    padding: 0 20px;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    font-size: small;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
+
+  .views-field-name {
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    font-size: x-large;
+    line-height: 1.2;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.view-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  .form--inline {
+    .form-item {
+      display: inline-flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+      float: inherit;
+      margin: 0;
+
+      label {
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        font-size: small;
+        letter-spacing: 2px;
+        margin: 0;
+        width: inherit;
+        text-align: inherit;
+      }
+
+      .form-select {
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        font-size: small;
+        letter-spacing: 2px;
+        background-color: inherit;
+        border-radius: 0;
+        color: $white;
+        width: 170px;
+        padding: 8px 12px;
+        border: 2px solid $white;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+
+        &:focus {
+          box-shadow: inherit;
+        }
+      }
+    }
+  }
+}
