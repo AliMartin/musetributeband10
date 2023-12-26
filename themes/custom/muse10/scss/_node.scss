@@ -1,10 +1,10 @@
 // Background images
+// iPhone fix
+// https://css-tricks.com/the-fixed-background-attachment-hack/
 .wallpaper-container {
   background-repeat: no-repeat;
   background-position: top center;
-//  background-attachment: fixed;
   background-size: cover;
-//  background-color: inherit;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -16,6 +16,7 @@
   background-color: inherit;
 }
 
+body,
 body.path-user {
   background-color: $black;
 }

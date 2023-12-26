@@ -12107,6 +12107,7 @@ a > .ck-content code {
 .ck-content .mm-wrapper_background body {
   background-color: inherit;
 }
+.ck-content body,
 .ck-content body.path-user {
   background-color: #000000;
 }
