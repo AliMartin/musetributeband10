@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - image.style.max_1300x1300
-    - image.style.max_325x325
     - image.style.max_650x650
   theme:
     - muse10
@@ -22,4 +21,4 @@ image_style_mappings:
     breakpoint_id: muse10.screen.md-min
     multiplier: 1x
 breakpoint_group: muse10.screen
-fallback_image_style: max_325x325
+fallback_image_style: max_650x650
