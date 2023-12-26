@@ -1,0 +1,17 @@
+uuid: 01219e41-88ab-4c33-9819-0a39f6436389
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Front
+type: front
+description: 'Reserved content type for the <em>front page</em>.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: ed46c3f5-109c-4c63-9bfb-a939e07f3881
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse10
+_core:
+  default_config_hash: VYemITTb59CDLSdeOSBS-ErjNmJDFHXojbT_8QUDbT4
+id: muse10_messages
+theme: muse10
+region: content
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

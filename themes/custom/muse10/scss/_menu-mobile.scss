@@ -10,6 +10,8 @@
 
 
 .mm-menu {
+  z-index: 10;
+
   a.mm-navbar__title {
     display: inline-grid;
     text-transform: uppercase;

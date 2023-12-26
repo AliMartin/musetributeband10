@@ -1,0 +1,21 @@
+uuid: 589cf0a6-bb58-4267-8d2e-75fb1beead8b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_promoted
+    - media.type.remote_video
+id: media.remote_video.field_promoted
+field_name: field_promoted
+entity_type: media
+bundle: remote_video
+label: Promoted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

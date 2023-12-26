@@ -1,0 +1,30 @@
+uuid: b021b216-3e60-48f3-be00-0bc1a00c751e
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:68465dcc-ba7e-48dd-8830-8a7a131be116'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse10
+id: muse10_booknow
+theme: muse10
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:68465dcc-ba7e-48dd-8830-8a7a131be116'
+settings:
+  id: 'block_content:68465dcc-ba7e-48dd-8830-8a7a131be116'
+  label: 'Book now'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

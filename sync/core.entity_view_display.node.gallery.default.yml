@@ -1,0 +1,76 @@
+uuid: aa771dc3-9874-4ecc-8f33-eda77581d37c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery
+    - field.field.node.gallery.field_wallpaper
+    - image.style.max_1300x1300
+    - image.style.wallpaper
+    - node.type.gallery
+  module:
+    - background_image_formatter
+    - blazy
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  field_gallery:
+    type: blazy_media
+    label: hidden
+    settings:
+      caption:
+        alt: '0'
+        title: '0'
+      class: ''
+      image: ''
+      link: ''
+      overlay: ''
+      title: ''
+      vanilla: false
+      layout: ''
+      view_mode: default
+      cache: 0
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      use_theme_field: false
+      box_style: max_1300x1300
+      image_style: ''
+      media_switch: colorbox
+      ratio: ''
+      thumbnail_style: ''
+      grid: '4'
+      grid_medium: '4'
+      grid_small: '2'
+      style: nativegrid
+      svg_inline: false
+      svg_fill: false
+      svg_sanitize: true
+      svg_sanitize_remote: false
+      svg_hide_caption: false
+      svg_attributes: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_wallpaper:
+    type: background_image_formatter
+    label: hidden
+    settings:
+      image_style: wallpaper
+      background_image_output_type: css
+      background_image_selector: .wallpaper-container
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: 2e12d7be-0a35-4b35-96f6-069b47712432
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse10
+_core:
+  default_config_hash: CO540X6l5f9lnRs0mUr2taLtbZAlo59gjk_qmsdLF38
+id: muse10_content
+theme: muse10
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

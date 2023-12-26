@@ -1,0 +1,26 @@
+uuid: 1314bb94-c788-4d0d-8c50-c2f2a7f90942
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - crop.type.wallpaper
+  module:
+    - crop
+name: wallpaper
+label: Wallpaper
+effects:
+  e076502b-bcca-46d2-b99f-be8c45ff8253:
+    uuid: e076502b-bcca-46d2-b99f-be8c45ff8253
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: wallpaper
+      automatic_crop_provider: null
+  960f9248-e3cf-4d2a-9c9a-471c9e441ae4:
+    uuid: 960f9248-e3cf-4d2a-9c9a-471c9e441ae4
+    id: image_scale
+    weight: 2
+    data:
+      width: 1600
+      height: 900
+      upscale: true

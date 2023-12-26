@@ -1,0 +1,30 @@
+uuid: 20fccca8-d2ed-4834-a5cd-fa52ce895b01
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:27e9ea86-239a-45b7-ae61-717da741d455'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse10
+id: muse10_curator.iofeed
+theme: muse10
+region: content
+weight: 4
+provider: null
+plugin: 'block_content:27e9ea86-239a-45b7-ae61-717da741d455'
+settings:
+  id: 'block_content:27e9ea86-239a-45b7-ae61-717da741d455'
+  label: Social
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

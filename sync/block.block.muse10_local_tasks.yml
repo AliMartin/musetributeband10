@@ -1,0 +1,22 @@
+uuid: 1c72da15-7247-4155-8435-a1360367bdb8
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - muse10
+_core:
+  default_config_hash: TbaF_arxOiUi6sTlm_XgtJa5ehINxgNcE86YfARCNLw
+id: muse10_local_tasks
+theme: muse10
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

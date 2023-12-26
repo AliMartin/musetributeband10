@@ -1,0 +1,21 @@
+uuid: 260d292b-5ec5-4c6b-b03f-f97ef9785d0a
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_media_soundcloud
+field_name: field_media_soundcloud
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

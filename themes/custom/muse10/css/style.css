@@ -13004,6 +13004,9 @@ ul.nav-tabs, .media-library-view--widget ul.view-header {
   display: none;
 }
 
+.mm-menu {
+  z-index: 10;
+}
 .mm-menu a.mm-navbar__title {
   display: inline-grid;
   text-transform: uppercase;
@@ -13066,17 +13069,32 @@ body.page-node-type-show .field--name-field-link a:hover,
   border: 2px solid #ffffff;
 }
 
-body {
+/* body {
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   background-color: inherit;
+} */
+.wallpaper-container {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: inherit;
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  z-index: -1;
 }
 
 .mm-page,
 .mm-wrapper_background body {
   background-color: inherit;
+}
+
+body.path-user {
+  background-color: #000000;
 }
 
 body.page-node-type-show {
@@ -13396,7 +13414,6 @@ input.btn-primary {
   padding: 8px 12px;
 }
 
-/* Placeholder text */
 .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.25);
 } /* Chrome/Opera/Safari */
@@ -13476,7 +13493,6 @@ legend {
   color: #fff;
 }
 
-/* Help text */
 .control-group .help-inline,
 .help-block {
   color: #999;
@@ -13486,7 +13502,6 @@ legend {
   margin: 12px 0 12px 0;
 }
 
-/* Select boxes */
 .form-select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -13506,9 +13521,6 @@ select option {
   background-color: #fff !important;
 }
 
-/*
- * Contact page
- */
 body.node-type-webform .main-content {
   text-align: center;
 }
@@ -13519,6 +13531,12 @@ a.btn i.fa-phone, a.button i.fa-phone, .node-preview-container a.node-preview-ba
 
 .g-recaptcha > div {
   margin: 0 auto 30px;
+}
+
+form {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body.page-node-type-front {

@@ -1,0 +1,30 @@
+uuid: 9e52db99-fc76-45bc-8ed1-4f9ff71a838f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:28dfb477-ba82-464a-b9dd-09ef251b33c6'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse10
+id: muse10_setlist
+theme: muse10
+region: content
+weight: 2
+provider: null
+plugin: 'block_content:28dfb477-ba82-464a-b9dd-09ef251b33c6'
+settings:
+  id: 'block_content:28dfb477-ba82-464a-b9dd-09ef251b33c6'
+  label: 'Set list'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

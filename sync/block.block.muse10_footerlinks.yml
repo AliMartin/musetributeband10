@@ -1,0 +1,25 @@
+uuid: 7bb35425-6598-471d-92ec-c53fd10da7dc
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f280b75f-f052-417f-a245-03e7d1fe1600'
+  module:
+    - block_content
+  theme:
+    - muse10
+id: muse10_footerlinks
+theme: muse10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f280b75f-f052-417f-a245-03e7d1fe1600'
+settings:
+  id: 'block_content:f280b75f-f052-417f-a245-03e7d1fe1600'
+  label: 'Footer links'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

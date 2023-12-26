@@ -13,9 +13,7 @@ input.btn-primary {
   padding: 8px 12px;
 }
 
-
-/* Placeholder text */
-
+// Placeholder text
 .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.25);} /* Chrome/Opera/Safari */
 .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.25);} /* Firefox 19+ */
 .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.25);} /* IE 10+ */
@@ -95,8 +93,7 @@ legend {
 
 
 
-/* Help text */
-
+// Help text
 .control-group .help-inline,
 .help-block {
 	color: #999;
@@ -107,10 +104,7 @@ legend {
 }
 
 
-
-
-/* Select boxes */
-
+// Select boxes
 .form-select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -131,11 +125,7 @@ select option {
 }
 
 
-
-/*
- * Contact page
- */
-
+// Contact page
 body.node-type-webform .main-content {
 	text-align: center;
 }
@@ -151,3 +141,9 @@ a.btn i.fa-phone {
 }
 
 
+// Forms in general
+form {
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}

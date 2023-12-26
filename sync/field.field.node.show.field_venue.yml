@@ -1,0 +1,19 @@
+uuid: e20e2a8b-3e0a-4510-9d56-5ac1feaacf0b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_venue
+    - node.type.show
+id: node.show.field_venue
+field_name: field_venue
+entity_type: node
+bundle: show
+label: Venue
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,27 @@
+uuid: 0714bd26-967b-4c64-8e47-f9854b860c78
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - muse10
+_core:
+  default_config_hash: fhTSDF6tAaAlsskY2Dr_W0XMi66_zzXesOKxzWyY08A
+id: muse10_main_navigation
+theme: muse10
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

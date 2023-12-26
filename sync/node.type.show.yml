@@ -1,0 +1,17 @@
+uuid: 1f6c98ac-6bca-43ed-a7e3-999b4cec7baa
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Show
+type: show
+description: 'Add a <em>show</em> to the website.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -32,17 +32,18 @@
   /* rtl:begin:remove */
   /* rtl:end:remove */
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300;700&display=swap");
-  /* Placeholder text */
+  /* body {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: inherit;
+  } */
   /* Chrome/Opera/Safari */
   /* Firefox 19+ */
   /* IE 10+ */
   /* Firefox 18- */
   /****** OLD CSS ******/
-  /* Help text */
-  /* Select boxes */
-  /*
-   * Contact page
-   */
 }
 .ck-content :root,
 .ck-content [data-bs-theme=light] {
@@ -12037,6 +12038,9 @@ a > .ck-content code {
 .ck-content #block-muse10-responsivemenumobileicon span.label {
   display: none;
 }
+.ck-content .mm-menu {
+  z-index: 10;
+}
 .ck-content .mm-menu a.mm-navbar__title {
   display: inline-grid;
   text-transform: uppercase;
@@ -12097,16 +12101,23 @@ a > .ck-content code {
   background-color: #ffffff;
   border: 2px solid #ffffff;
 }
-.ck-content body {
+.ck-content .wallpaper-container {
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
   background-size: cover;
   background-color: inherit;
+  position: fixed;
+  height: 100vh;
+  width: 100vh;
+  z-index: -1;
 }
 .ck-content .mm-page,
 .ck-content .mm-wrapper_background body {
   background-color: inherit;
+}
+.ck-content body.path-user {
+  background-color: #000000;
 }
 .ck-content body.page-node-type-show {
   background-image: url(/themes/custom/muse10/backgrounds/muse-tribute-9.jpg);
@@ -12511,6 +12522,11 @@ a > .ck-content code {
 }
 .ck-content .g-recaptcha > div {
   margin: 0 auto 30px;
+}
+.ck-content form {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ck-content body.page-node-type-front {
   overflow: inherit;

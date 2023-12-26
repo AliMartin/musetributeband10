@@ -1,0 +1,21 @@
+uuid: 041a18f3-eb0e-4645-9f2a-926cae9c0f63
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_promoted
+    - media.type.soundcloud
+id: media.soundcloud.field_promoted
+field_name: field_promoted
+entity_type: media
+bundle: soundcloud
+label: Promoted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
