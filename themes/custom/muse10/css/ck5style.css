@@ -32,13 +32,6 @@
   /* rtl:begin:remove */
   /* rtl:end:remove */
   @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@300;700&display=swap");
-  /* body {
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: inherit;
-  } */
   /* Chrome/Opera/Safari */
   /* Firefox 19+ */
   /* IE 10+ */
@@ -12104,9 +12097,10 @@ a > .ck-content code {
 .ck-content .wallpaper-container {
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: cover;
   position: fixed;
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
   z-index: -1;
 }
 .ck-content .mm-page,
