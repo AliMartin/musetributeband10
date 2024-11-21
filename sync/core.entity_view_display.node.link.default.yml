@@ -1,0 +1,33 @@
+uuid: c34a421b-2c72-4a2e-857a-c8daddd60f8c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.link.field_link
+    - node.type.link
+  module:
+    - field_redirection
+    - user
+id: node.link.default
+targetEntityType: node
+bundle: link
+mode: default
+content:
+  field_link:
+    type: field_redirection_formatter
+    label: hidden
+    settings:
+      code: 301
+      404_if_empty: false
+      page_restrictions: 0
+      pages: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

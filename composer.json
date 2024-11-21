@@ -99,6 +99,7 @@
         "drupal/core-recommended": "^10",
         "drupal/core-vendor-hardening": "^10",
         "drupal/entity_browser": "^2.10",
+        "drupal/field_redirection": "^2.2",
         "drupal/file_browser": "^1.4",
         "drupal/fitvids": "^2.0",
         "drupal/honeypot": "^2.1",
