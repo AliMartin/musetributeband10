@@ -11,7 +11,7 @@ third_party_settings:
 name: Front
 type: front
 description: 'Reserved content type for the <em>front page</em>.'
-help: ''
+help: null
 new_revision: true
 preview_mode: 1
 display_submitted: false

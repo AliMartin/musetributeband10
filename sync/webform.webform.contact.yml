@@ -2,14 +2,9 @@ uuid: c8250632-b67e-49d2-93ca-babb7c154556
 langcode: en-gb
 status: open
 dependencies:
-  module:
-    - honeypot
   enforced:
     module:
       - webform
-third_party_settings:
-  honeypot:
-    honeypot: true
 _core:
   default_config_hash: _je-MWeeJB6gfm6iECiqjcyNetfMFbn-YIInYwZ1gIk
 weight: 0
