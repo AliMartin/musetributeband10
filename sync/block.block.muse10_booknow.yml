@@ -12,7 +12,7 @@ dependencies:
 id: muse10_booknow
 theme: muse10
 region: content
-weight: -2
+weight: -1
 provider: null
 plugin: 'block_content:68465dcc-ba7e-48dd-8830-8a7a131be116'
 settings:
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: '<front>'
+    pages: "/video\r\n<front>"
