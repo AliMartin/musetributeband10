@@ -12,7 +12,7 @@ dependencies:
 id: muse10_booknow_2
 theme: muse10
 region: content
-weight: 5
+weight: 6
 provider: null
 plugin: 'block_content:68465dcc-ba7e-48dd-8830-8a7a131be116'
 settings:

@@ -5,7 +5,6 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.front.body
-    - field.field.node.front.field_gallery
     - node.type.front
   module:
     - text
@@ -29,5 +28,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_gallery: true
   langcode: true

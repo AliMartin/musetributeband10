@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.front.body
-    - field.field.node.front.field_gallery
     - node.type.front
   module:
-    - background_image_formatter
     - text
     - user
 id: node.front.default
@@ -21,16 +19,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
-    region: content
-  field_gallery:
-    type: background_media_image_formatter
-    label: hidden
-    settings:
-      image_style: wallpaper
-      background_image_output_type: css
-      background_image_selector: .wallpaper-container
-    third_party_settings: {  }
-    weight: 0
     region: content
   links:
     settings: {  }

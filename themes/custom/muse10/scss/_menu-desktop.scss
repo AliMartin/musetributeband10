@@ -15,7 +15,7 @@ ul.nav-tabs {
     a {
       color: $white;
       text-transform: uppercase;
-      font-size: large;
+      font-size: 18px;
       font-weight: 800;
     }
     a:before,
@@ -43,15 +43,29 @@ ul.nav-tabs {
 }
 
 
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #block-muse10-main-navigation ul.navbar-nav {
+    li {
+      padding: 0 10px;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #block-muse10-main-navigation ul.navbar-nav {
     flex-direction: row;
 
     li {
-      padding: 0 8px;
+      padding: 0 3px;
     }
     a {
-      font-size: small;
+      font-size: 14px;
     }
     a:before,
     a:after {

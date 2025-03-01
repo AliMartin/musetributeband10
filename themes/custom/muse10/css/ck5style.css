@@ -12056,6 +12056,68 @@ a > .ck-content code {
   height: 100%;
   object-fit: cover; /* Ensures the video covers the entire area */
 }
+.ck-content #block-muse10-webform {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url("../images/mailing.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.ck-content #block-muse10-webform h2, .ck-content #block-muse10-webform .h2 {
+  margin: 0 auto 20px auto;
+}
+.ck-content #block-muse10-webform form {
+  text-align: center;
+  /* Chrome/Opera/Safari */
+  /* Firefox 19+ */
+  /* IE 10+ */
+  /* Firefox 18- */
+}
+.ck-content #block-muse10-webform form .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.ck-content #block-muse10-webform form .form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.ck-content #block-muse10-webform form .form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.ck-content #block-muse10-webform form .form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.ck-content #block-muse10-webform form .webform-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+.ck-content #block-muse10-webform form .webform-flex--container {
+  margin: 0;
+}
+.ck-content #block-muse10-webform form .form-item,
+.ck-content #block-muse10-webform form .form-actions {
+  margin: 0;
+}
+.ck-content #block-muse10-webform form input {
+  margin: 0;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.ck-content #block-muse10-webform form input:hover, .ck-content #block-muse10-webform form input:focus, .ck-content #block-muse10-webform form input:active {
+  border: 1px solid #ffffff;
+}
+.ck-content #block-muse10-webform form input.button {
+  height: 44px;
+  background-color: inherit;
+}
+.ck-content #block-muse10-webform form input.button:hover, .ck-content #block-muse10-webform form input.button:focus, .ck-content #block-muse10-webform form input.button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
 .ck-content header {
   position: relative;
   z-index: 30;
@@ -12109,7 +12171,7 @@ a > .ck-content code {
 .ck-content #block-muse10-main-navigation ul.navbar-nav a {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: large;
+  font-size: 18px;
   font-weight: 800;
 }
 .ck-content #block-muse10-main-navigation ul.navbar-nav a:before,
@@ -12133,15 +12195,23 @@ a > .ck-content code {
   height: 3px;
   background-color: #ffffff;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .ck-content #block-muse10-main-navigation ul.navbar-nav li {
+    padding: 0 10px;
+  }
+  .ck-content #block-muse10-main-navigation ul.navbar-nav a {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .ck-content #block-muse10-main-navigation ul.navbar-nav {
     flex-direction: row;
   }
   .ck-content #block-muse10-main-navigation ul.navbar-nav li {
-    padding: 0 8px;
+    padding: 0 3px;
   }
   .ck-content #block-muse10-main-navigation ul.navbar-nav a {
-    font-size: small;
+    font-size: 14px;
   }
   .ck-content #block-muse10-main-navigation ul.navbar-nav a:before,
 .ck-content #block-muse10-main-navigation ul.navbar-nav a:after {

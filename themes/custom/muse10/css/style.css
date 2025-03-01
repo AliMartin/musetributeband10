@@ -13026,6 +13026,69 @@ body.page-node-type-front #set-list-block .song {
   object-fit: cover; /* Ensures the video covers the entire area */
 }
 
+#block-muse10-webform {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url("../images/mailing.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+#block-muse10-webform h2, #block-muse10-webform .h2 {
+  margin: 0 auto 20px auto;
+}
+#block-muse10-webform form {
+  text-align: center;
+  /* Chrome/Opera/Safari */
+  /* Firefox 19+ */
+  /* IE 10+ */
+  /* Firefox 18- */
+}
+#block-muse10-webform form .form-control::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#block-muse10-webform form .form-control::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#block-muse10-webform form .form-control:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#block-muse10-webform form .form-control:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+#block-muse10-webform form .webform-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+#block-muse10-webform form .webform-flex--container {
+  margin: 0;
+}
+#block-muse10-webform form .form-item,
+#block-muse10-webform form .form-actions {
+  margin: 0;
+}
+#block-muse10-webform form input {
+  margin: 0;
+  border: 1px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#block-muse10-webform form input:hover, #block-muse10-webform form input:focus, #block-muse10-webform form input:active {
+  border: 1px solid #ffffff;
+}
+#block-muse10-webform form input.button {
+  height: 44px;
+  background-color: inherit;
+}
+#block-muse10-webform form input.button:hover, #block-muse10-webform form input.button:focus, #block-muse10-webform form input.button:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 header {
   position: relative;
   z-index: 30;
@@ -13083,7 +13146,7 @@ ul.nav-tabs, .media-library-view--widget ul.view-header {
 #block-muse10-main-navigation ul.navbar-nav a {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: large;
+  font-size: 18px;
   font-weight: 800;
 }
 #block-muse10-main-navigation ul.navbar-nav a:before,
@@ -13108,15 +13171,23 @@ ul.nav-tabs, .media-library-view--widget ul.view-header {
   background-color: #ffffff;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #block-muse10-main-navigation ul.navbar-nav li {
+    padding: 0 10px;
+  }
+  #block-muse10-main-navigation ul.navbar-nav a {
+    font-size: 16px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #block-muse10-main-navigation ul.navbar-nav {
     flex-direction: row;
   }
   #block-muse10-main-navigation ul.navbar-nav li {
-    padding: 0 8px;
+    padding: 0 3px;
   }
   #block-muse10-main-navigation ul.navbar-nav a {
-    font-size: small;
+    font-size: 14px;
   }
   #block-muse10-main-navigation ul.navbar-nav a:before,
 #block-muse10-main-navigation ul.navbar-nav a:after {

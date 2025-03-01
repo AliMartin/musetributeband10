@@ -12,7 +12,7 @@ dependencies:
 id: muse10_views_block__news_block_2
 theme: muse10
 region: content
-weight: 3
+weight: 4
 provider: null
 plugin: 'views_block:news-block_2'
 settings:

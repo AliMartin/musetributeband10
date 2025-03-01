@@ -169,3 +169,73 @@ body.page-node-type-front {
   height: 100%;
   object-fit: cover; /* Ensures the video covers the entire area */
 }
+
+
+// Mailing list
+
+#block-muse10-webform {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.7);
+  background-image: url('../images/mailing.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  h2 {
+    margin: 0 auto 20px auto;
+  }
+
+  form {
+    text-align: center;
+
+    .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari */
+    .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+ */
+    .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+ */
+    .form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18- */
+
+
+    .webform-flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .webform-flex--container {
+      margin: 0;
+    }
+
+    .form-item,
+    .form-actions {
+      margin: 0;
+    }
+
+    input {
+      margin: 0;
+      border: 1px solid $white;
+      background-color: rgba(0,0,0,0.5);
+
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid $white;
+      }
+    }
+
+    input.button {
+      height: 44px;
+      background-color: inherit;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+  }
+}

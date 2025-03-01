@@ -1,0 +1,31 @@
+uuid: 1331a042-f84b-415e-830b-2d80ead7f62c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - webform.webform.mailing_list
+  module:
+    - system
+    - webform
+  theme:
+    - muse10
+id: muse10_webform
+theme: muse10
+region: content
+weight: -2
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Subscribe to our mailing list'
+  label_display: visible
+  provider: webform
+  webform_id: mailing_list
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
