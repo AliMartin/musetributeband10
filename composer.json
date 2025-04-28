@@ -86,6 +86,8 @@
         "cweagans/composer-patches": "^1.7",
         "desandro/imagesloaded": "3.1.8",
         "desandro/masonry": "3.3.1",
+        "drupal/ai": "^1.0",
+        "drupal/ai_provider_openai": "^1.0",
         "drupal/background_image_formatter": "^2.0",
         "drupal/backup_migrate": "^5.0",
         "drupal/better_exposed_filters": "^6.0",
@@ -132,13 +134,14 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-project-message": true,
             "drupal/core-vendor-hardening": true,
-            "phpstan/extension-installer": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true,
             "oomphinc/composer-installers-extender": true,
-            "cweagans/composer-patches": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
         },
         "sort-packages": true
     },

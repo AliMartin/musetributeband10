@@ -1,24 +1,24 @@
-uuid: 0a3e4cda-ef27-4c18-8355-c41a28c49204
+uuid: dd4f99a5-dff1-4f05-b7ae-75678c992aa4
 langcode: en-gb
 status: true
 dependencies:
   content:
-    - 'block_content:basic:3f8b1ded-a82d-486b-9a54-fcda4898408c'
+    - 'block_content:basic:3a0b79ab-046f-481b-b3a4-20f42057fec7'
   module:
     - block_content
     - system
   theme:
     - muse10
-id: muse10_videowallpaper
+id: muse10_newvideos
 theme: muse10
 region: content
-weight: -10
+weight: -8
 provider: null
-plugin: 'block_content:3f8b1ded-a82d-486b-9a54-fcda4898408c'
+plugin: 'block_content:3a0b79ab-046f-481b-b3a4-20f42057fec7'
 settings:
-  id: 'block_content:3f8b1ded-a82d-486b-9a54-fcda4898408c'
-  label: 'Video wallpaper'
-  label_display: '0'
+  id: 'block_content:3a0b79ab-046f-481b-b3a4-20f42057fec7'
+  label: 'Watch the new videos'
+  label_display: visible
   provider: block_content
   status: true
   info: ''

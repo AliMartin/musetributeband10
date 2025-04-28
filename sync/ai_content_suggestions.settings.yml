@@ -1,0 +1,4 @@
+plugins:
+  summarise: openai__gpt-4o
+  title_suggest: openai__gpt-4o
+  tone: openai__gpt-4o
