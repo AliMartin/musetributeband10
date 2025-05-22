@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.gallery.body
     - field.field.node.gallery.field_gallery
+    - field.field.node.gallery.field_metatags
     - field.field.node.gallery.field_wallpaper
     - image.style.max_1300x1300
     - image.style.wallpaper
@@ -12,6 +13,7 @@ dependencies:
   module:
     - background_image_formatter
     - blazy
+    - metatag
     - user
 id: node.gallery.default
 targetEntityType: node
@@ -31,9 +33,12 @@ content:
       overlay: ''
       title: ''
       vanilla: false
+      by_delta: -1
       layout: ''
       view_mode: default
       cache: 0
+      admin_uri: ''
+      use_lb: false
       background: false
       box_caption: ''
       box_caption_custom: ''
@@ -59,6 +64,13 @@ content:
       svg_attributes: ''
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_wallpaper:
     type: background_image_formatter

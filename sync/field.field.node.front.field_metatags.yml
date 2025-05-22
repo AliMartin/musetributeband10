@@ -1,0 +1,21 @@
+uuid: 6ed4d804-478e-48ed-b394-17fd7c508b6e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatags
+    - node.type.front
+  module:
+    - metatag
+id: node.front.field_metatags
+field_name: field_metatags
+entity_type: node
+bundle: front
+label: Metatags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

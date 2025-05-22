@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.front.body
+    - field.field.node.front.field_metatags
     - node.type.front
   module:
+    - metatag
     - path
     - text
 id: node.front.default
@@ -28,6 +30,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   langcode:
     type: language_select

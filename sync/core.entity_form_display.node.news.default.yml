@@ -6,12 +6,14 @@ dependencies:
     - entity_browser.browser.browse_files
     - field.field.node.news.body
     - field.field.node.news.field_image
+    - field.field.node.news.field_metatags
     - field.field.node.news.field_teaser
     - field.field.node.news.field_wallpaper
     - node.type.news
   module:
     - entity_browser
     - media_library
+    - metatag
     - path
     - text
 id: node.news.default
@@ -41,6 +43,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_teaser:
     type: string_textarea

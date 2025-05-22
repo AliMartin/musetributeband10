@@ -6,11 +6,13 @@ dependencies:
     - entity_browser.browser.browse_files
     - field.field.node.gallery.body
     - field.field.node.gallery.field_gallery
+    - field.field.node.gallery.field_metatags
     - field.field.node.gallery.field_wallpaper
     - node.type.gallery
   module:
     - entity_browser
     - media_library
+    - metatag
     - path
 id: node.gallery.default
 targetEntityType: node
@@ -29,6 +31,14 @@ content:
     region: content
     settings:
       media_types: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_wallpaper:
     type: entity_browser_file

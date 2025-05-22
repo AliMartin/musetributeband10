@@ -12137,6 +12137,9 @@ a > .ck-content code {
   padding-bottom: 120px;
   z-index: 20;
 }
+.ck-content #footer-links {
+  margin-bottom: 30px;
+}
 .ck-content #footer-links .social-media-wrapper {
   display: flex;
   justify-content: center;
@@ -12157,6 +12160,36 @@ a > .ck-content code {
   font-size: large;
   letter-spacing: 4px;
   text-align: center;
+}
+.ck-content #hyperluminal {
+  text-align: center;
+}
+.ck-content #hyperluminal .text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.ck-content #hyperluminal img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.ck-content #block-muse10-sitemap {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 8px;
+  line-height: 1;
+}
+.ck-content #block-muse10-sitemap a {
+  color: #ffffff;
+  text-decoration: inherit;
+  border-bottom: inherit;
+}
+.ck-content #block-muse10-sitemap a:hover, .ck-content #block-muse10-sitemap a:focus {
+  color: #6c757d;
 }
 .ck-content ul.nav-tabs, .ck-content .media-library-view--widget ul.view-header {
   display: flex;

@@ -5,11 +5,13 @@ dependencies:
   config:
     - entity_browser.browser.browse_files
     - field.field.node.webform.body
+    - field.field.node.webform.field_metatags
     - field.field.node.webform.field_wallpaper
     - field.field.node.webform.webform
     - node.type.webform
   module:
     - entity_browser
+    - metatag
     - path
     - text
     - webform
@@ -35,6 +37,14 @@ content:
     weight: 6
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_wallpaper:
     type: entity_browser_file

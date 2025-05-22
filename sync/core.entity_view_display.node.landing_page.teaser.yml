@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_metatags
     - field.field.node.landing_page.field_wallpaper
     - node.type.landing_page
   module:
@@ -29,5 +30,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_metatags: true
   field_wallpaper: true
   langcode: true

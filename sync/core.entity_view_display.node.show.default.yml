@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.show.field_address
     - field.field.node.show.field_date
     - field.field.node.show.field_link
+    - field.field.node.show.field_metatags
     - field.field.node.show.field_venue
     - node.type.show
   module:
     - datetime
     - link
+    - metatag
     - text
     - user
 id: node.show.default
@@ -53,6 +55,13 @@ content:
       target: _blank
     third_party_settings: {  }
     weight: 3
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_venue:
     type: string

@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.field.node.news.body
     - field.field.node.news.field_image
+    - field.field.node.news.field_metatags
     - field.field.node.news.field_teaser
     - field.field.node.news.field_wallpaper
     - image.style.wallpaper
     - node.type.news
   module:
     - background_image_formatter
+    - metatag
     - text
     - user
 id: node.news.default
@@ -33,6 +35,13 @@ content:
       link: false
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_teaser:
     type: basic_string

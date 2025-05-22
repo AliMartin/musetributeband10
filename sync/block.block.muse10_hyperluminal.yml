@@ -1,0 +1,25 @@
+uuid: b979f026-43f1-44bd-a1a0-88bb3991aa51
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+  module:
+    - block_content
+  theme:
+    - muse10
+id: muse10_hyperluminal
+theme: muse10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+settings:
+  id: 'block_content:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+  label: Hyperluminal
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

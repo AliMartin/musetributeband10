@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.gallery.body
     - field.field.node.gallery.field_gallery
+    - field.field.node.gallery.field_metatags
     - field.field.node.gallery.field_wallpaper
     - node.type.gallery
   module:
@@ -31,5 +32,6 @@ content:
     region: content
 hidden:
   field_gallery: true
+  field_metatags: true
   field_wallpaper: true
   langcode: true

@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.field_metatags
     - field.field.node.article.field_tags
     - node.type.article
   module:
+    - metatag
     - path
     - text
 _core:
@@ -31,6 +33,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags

@@ -7,11 +7,13 @@ dependencies:
     - field.field.node.show.field_address
     - field.field.node.show.field_date
     - field.field.node.show.field_link
+    - field.field.node.show.field_metatags
     - field.field.node.show.field_venue
     - node.type.show
   module:
     - datetime
     - link
+    - metatag
     - path
     - text
 id: node.show.default
@@ -56,6 +58,14 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_metatags:
+    type: metatag_firehose
+    weight: 26
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_venue:
     type: string_textfield

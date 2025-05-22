@@ -4,12 +4,14 @@ status: true
 dependencies:
   config:
     - field.field.node.webform.body
+    - field.field.node.webform.field_metatags
     - field.field.node.webform.field_wallpaper
     - field.field.node.webform.webform
     - image.style.wallpaper
     - node.type.webform
   module:
     - background_image_formatter
+    - metatag
     - text
     - user
     - webform
@@ -26,6 +28,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   field_wallpaper:
     type: background_image_formatter

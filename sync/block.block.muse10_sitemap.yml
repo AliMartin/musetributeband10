@@ -1,0 +1,25 @@
+uuid: 4de2412a-d2e7-4485-a77c-23a4e8c825c4
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+  module:
+    - block_content
+  theme:
+    - muse10
+id: muse10_sitemap
+theme: muse10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+settings:
+  id: 'block_content:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+  label: Sitemap
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
