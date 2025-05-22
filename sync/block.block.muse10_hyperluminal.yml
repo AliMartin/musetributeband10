@@ -1,9 +1,9 @@
-uuid: b979f026-43f1-44bd-a1a0-88bb3991aa51
+uuid: 86f7d4df-05b9-4e14-a98d-ea85182705eb
 langcode: en-gb
 status: true
 dependencies:
   content:
-    - 'block_content:basic:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+    - 'block_content:basic:5954fd60-392f-4472-904d-fced723349df'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: muse10
 region: footer
 weight: 0
 provider: null
-plugin: 'block_content:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+plugin: 'block_content:5954fd60-392f-4472-904d-fced723349df'
 settings:
-  id: 'block_content:3978aaa6-bdbe-461a-a6ce-a4ef64532f03'
+  id: 'block_content:5954fd60-392f-4472-904d-fced723349df'
   label: Hyperluminal
   label_display: '0'
   provider: block_content

@@ -1,9 +1,9 @@
-uuid: 4de2412a-d2e7-4485-a77c-23a4e8c825c4
+uuid: 64a124fc-b98d-4bb3-99a6-01d33d437278
 langcode: en-gb
 status: true
 dependencies:
   content:
-    - 'block_content:basic:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+    - 'block_content:basic:ae4774e9-bf23-4f03-b173-498bf22dba17'
   module:
     - block_content
   theme:
@@ -13,9 +13,9 @@ theme: muse10
 region: footer
 weight: 0
 provider: null
-plugin: 'block_content:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+plugin: 'block_content:ae4774e9-bf23-4f03-b173-498bf22dba17'
 settings:
-  id: 'block_content:2336bb8b-e3fc-41e6-b70c-5585ac65123e'
+  id: 'block_content:ae4774e9-bf23-4f03-b173-498bf22dba17'
   label: Sitemap
   label_display: '0'
   provider: block_content
