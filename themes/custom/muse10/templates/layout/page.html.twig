@@ -79,6 +79,13 @@ set footer_classes = ' ' ~
 
 </header>
 
+
+{% if is_front %}
+  <div id="front-page-reviews">
+    {{ page.reviews }}
+  </div>
+{% endif %}
+
 <main role="main">
   <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 

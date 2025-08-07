@@ -12,7 +12,7 @@ dependencies:
 id: muse10_setlist
 theme: muse10
 region: content
-weight: 3
+weight: 1
 provider: null
 plugin: 'block_content:28dfb477-ba82-464a-b9dd-09ef251b33c6'
 settings:

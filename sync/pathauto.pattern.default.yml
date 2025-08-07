@@ -9,15 +9,16 @@ label: Default
 type: 'canonical_entities:node'
 pattern: '[node:content-type]/[node:title]'
 selection_criteria:
-  8986c011-0616-49df-80ee-c298f04481a1:
+  2fa3f9ab-40aa-4d92-a8ed-f818b23c0056:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 8986c011-0616-49df-80ee-c298f04481a1
+    uuid: 2fa3f9ab-40aa-4d92-a8ed-f818b23c0056
     context_mapping:
       node: node
     bundles:
       gallery: gallery
       news: news
+      review: review
 selection_logic: and
 weight: -5
 relationships: {  }

@@ -1,6 +1,6 @@
 uuid: dd4f99a5-dff1-4f05-b7ae-75678c992aa4
 langcode: en-gb
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:3a0b79ab-046f-481b-b3a4-20f42057fec7'
@@ -12,7 +12,7 @@ dependencies:
 id: muse10_newvideos
 theme: muse10
 region: content
-weight: -8
+weight: 5
 provider: null
 plugin: 'block_content:3a0b79ab-046f-481b-b3a4-20f42057fec7'
 settings:

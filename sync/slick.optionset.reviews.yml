@@ -1,0 +1,71 @@
+uuid: 0b8ec8bd-4695-4e07-a659-1b12f833daa3
+langcode: en-gb
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: jHmfPBU2oNraKWjKwqYODaPOKQQM2sczj5TlDlN8Om8
+id: reviews
+name: reviews
+weight: -10
+label: Reviews
+group: ''
+skin: default
+breakpoints: 0
+optimized: false
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    mobileFirst: false
+    asNavFor: ''
+    accessibility: false
+    adaptiveHeight: false
+    autoplay: true
+    pauseOnHover: false
+    pauseOnDotsHover: false
+    pauseOnFocus: false
+    autoplaySpeed: 5000
+    arrows: false
+    prevArrow: Previous
+    nextArrow: Next
+    downArrow: false
+    downArrowTarget: ''
+    downArrowOffset: 0
+    centerMode: false
+    centerPadding: 50px
+    dots: false
+    dotsClass: slick-dots
+    appendDots: $(element)
+    draggable: false
+    fade: true
+    focusOnSelect: false
+    infinite: true
+    initialSlide: 0
+    lazyLoad: ondemand
+    mouseWheel: false
+    randomize: true
+    respondTo: window
+    rtl: false
+    rows: 0
+    slidesPerRow: 1
+    slide: ''
+    slidesToShow: 1
+    slidesToScroll: 1
+    speed: 1000
+    swipe: false
+    swipeToSlide: false
+    edgeFriction: 0.35
+    touchMove: false
+    touchThreshold: 5
+    useCSS: true
+    cssEase: ease
+    cssEaseBezier: 'cubic-bezier(0.075, 0.820, 0.165, 1.000)'
+    cssEaseOverride: easeOutCirc
+    useTransform: true
+    easing: easeOutCirc
+    variableWidth: false
+    vertical: false
+    verticalSwiping: false
+    waitForAnimate: true

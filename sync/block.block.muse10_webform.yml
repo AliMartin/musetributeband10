@@ -12,7 +12,7 @@ dependencies:
 id: muse10_webform
 theme: muse10
 region: content
-weight: -2
+weight: -4
 provider: null
 plugin: webform_block
 settings:

@@ -13,7 +13,7 @@ _core:
 id: muse10_main_navigation
 theme: muse10
 region: nav_main
-weight: 0
+weight: -12
 provider: null
 plugin: 'system_menu_block:main'
 settings:

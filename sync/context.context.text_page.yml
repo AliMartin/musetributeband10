@@ -26,6 +26,7 @@ conditions:
       node: '@node.node_route_context:node'
     bundles:
       news: news
+      review: review
       show: show
 reactions:
   body_class:

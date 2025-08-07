@@ -12,7 +12,7 @@ dependencies:
 id: muse10_audio
 theme: muse10
 region: content
-weight: 5
+weight: 3
 provider: null
 plugin: 'block_content:d41a4c64-c747-4dc2-b1c0-f9c5200cb3a4'
 settings:

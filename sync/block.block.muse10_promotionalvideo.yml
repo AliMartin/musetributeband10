@@ -1,6 +1,6 @@
 uuid: b19c2a09-64b5-40e8-a357-ee698c417942
 langcode: en-gb
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:fadae8f2-8d13-4538-8f3c-bca4ce5633eb'
@@ -12,7 +12,7 @@ dependencies:
 id: muse10_promotionalvideo
 theme: muse10
 region: content
-weight: -3
+weight: 6
 provider: null
 plugin: 'block_content:fadae8f2-8d13-4538-8f3c-bca4ce5633eb'
 settings:

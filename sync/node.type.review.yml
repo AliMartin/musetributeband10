@@ -1,0 +1,17 @@
+uuid: 97ff50ef-e5b8-4f34-b9c0-e7634974e083
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Review
+type: review
+description: 'Add a <em>review</em> to the website. Those tagged as <em>Promoted to front page</em> will also be displayed there.'
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: false

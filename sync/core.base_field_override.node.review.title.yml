@@ -1,0 +1,18 @@
+uuid: 5d35b493-f51c-496c-81cb-0b477ede5573
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.review
+id: node.review.title
+field_name: title
+entity_type: node
+bundle: review
+label: Who
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

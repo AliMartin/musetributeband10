@@ -9,7 +9,7 @@ dependencies:
 id: muse10_responsivemenumobileicon
 theme: muse10
 region: nav_main
-weight: 0
+weight: -11
 provider: null
 plugin: responsive_menu_toggle
 settings:
