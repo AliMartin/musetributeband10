@@ -13409,10 +13409,26 @@ body.text-page .region-content {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 45px 30px 45px 30px;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
 }
 body.text-page .region-content article.media {
   margin-bottom: 1rem;
+}
+body.text-page .region-content h2, body.text-page .region-content .h2,
+body.text-page .region-content h3,
+body.text-page .region-content .h3 {
+  width: inherit;
+  margin: 30px auto 15px;
+  text-align: left;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+body.text-page .region-content h2:before, body.text-page .region-content .h2:before, body.text-page .region-content h2:after, body.text-page .region-content .h2:after,
+body.text-page .region-content h3:before,
+body.text-page .region-content .h3:before,
+body.text-page .region-content h3:after,
+body.text-page .region-content .h3:after {
+  display: none;
 }
 
 .field--name-field-teaser {
@@ -13420,7 +13436,7 @@ body.text-page .region-content article.media {
   font-weight: 700;
   font-size: x-large;
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #blazy-node-gallery-gallery-full-colorbox {

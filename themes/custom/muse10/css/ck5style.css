@@ -12422,17 +12422,33 @@ a > .ck-content code {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 45px 30px 45px 30px;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
 }
 .ck-content body.text-page .region-content article.media {
   margin-bottom: 1rem;
+}
+.ck-content body.text-page .region-content h2, .ck-content body.text-page .region-content .h2,
+.ck-content body.text-page .region-content h3,
+.ck-content body.text-page .region-content .h3 {
+  width: inherit;
+  margin: 30px auto 15px;
+  text-align: left;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+.ck-content body.text-page .region-content h2:before, .ck-content body.text-page .region-content .h2:before, .ck-content body.text-page .region-content h2:after, .ck-content body.text-page .region-content .h2:after,
+.ck-content body.text-page .region-content h3:before,
+.ck-content body.text-page .region-content .h3:before,
+.ck-content body.text-page .region-content h3:after,
+.ck-content body.text-page .region-content .h3:after {
+  display: none;
 }
 .ck-content .field--name-field-teaser {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: x-large;
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .ck-content #blazy-node-gallery-gallery-full-colorbox {
   margin-bottom: 60px;

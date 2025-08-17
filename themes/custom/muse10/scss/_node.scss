@@ -83,10 +83,23 @@ body.text-page .region-content {
   background-color: rgba(0,0,0,0.5);
   padding: 45px 30px 45px 30px;
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
 
   article.media {
     margin-bottom: 1rem;
+  }
+
+  h2,
+  h3 {
+    width: inherit;
+    margin: 30px auto 15px;
+    text-align: left;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    &:before,
+    &:after {
+      display: none;
+    }
   }
 }
 
@@ -97,7 +110,7 @@ body.text-page .region-content {
   font-weight: 700;
   font-size: x-large;
   line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 
