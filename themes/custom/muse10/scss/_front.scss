@@ -171,8 +171,8 @@ body.page-node-type-front {
 }
 
 
-// Mailing list
-
+// Mailing list - OLD WEBFORM
+/*
 #block-muse10-webform {
   max-width: 830px;
   margin-left: auto;
@@ -191,10 +191,10 @@ body.page-node-type-front {
   form {
     text-align: center;
 
-    .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari */
-    .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+ */
-    .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+ */
-    .form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18- */
+    .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari
+    .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+
+    .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+
+    .form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18-
 
 
     .webform-flexbox {
@@ -215,6 +215,69 @@ body.page-node-type-front {
 
     input {
       margin: 0;
+      border: 1px solid $white;
+      background-color: rgba(0,0,0,0.5);
+
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid $white;
+      }
+    }
+
+    input.button {
+      height: 44px;
+      background-color: inherit;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+  }
+}
+*/
+
+
+// Mailing list - NEW MAILCHIMP
+body.path-join .region-content,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(0,0,0,0.7);
+  background-image: url('../images/mailing-2.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  h2 {
+    margin: 0 auto 20px auto;
+  }
+
+  .mailchimp-newsletter-mergefields {
+    margin-top: 20px;
+  }
+
+  form {
+    text-align: center;
+
+    .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari */
+    .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+ */
+    .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+ */
+    .form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18- */
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    input {
+      max-width: 400px;
+      margin: 0 auto;
       border: 1px solid $white;
       background-color: rgba(0,0,0,0.5);
 

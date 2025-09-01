@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cb35d134560660191ca29b63c2dbeb6",
+    "content-hash": "c0cfeb44c1dd95f8b2ba3109425ba479",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3228,26 +3228,26 @@
         },
         {
             "name": "drupal/insert_view",
-            "version": "2.1.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/insert_view.git",
-                "reference": "2.1.0"
+                "reference": "3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/insert_view-2.1.0.zip",
-                "reference": "2.1.0",
-                "shasum": "e06c460da49b37f4505b23bea03ab225252260d3"
+                "url": "https://ftp.drupal.org/files/projects/insert_view-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "de5d40ca3af5b9d0438fc005a9ac791b70ecad72"
             },
             "require": {
-                "drupal/core": "^8.8 || ^9 || ^10"
+                "drupal/core": "^8.8 || ^9 || ^10 || ^11"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.0",
-                    "datestamp": "1698165285",
+                    "version": "3.0.0",
+                    "datestamp": "1749588032",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"

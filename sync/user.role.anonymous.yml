@@ -4,6 +4,7 @@ status: true
 dependencies:
   module:
     - contact
+    - mailchimp_signup
     - media
     - search
     - system
@@ -15,6 +16,7 @@ weight: 0
 is_admin: false
 permissions:
   - 'access content'
+  - 'access mailchimp signup pages'
   - 'access site-wide contact form'
   - 'search content'
   - 'view media'

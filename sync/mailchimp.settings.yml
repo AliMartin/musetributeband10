@@ -1,12 +1,16 @@
 _core:
   default_config_hash: B-qrrA7oRcyy2W-a4OjHSgOhpMNFBK4dP9yb2KHC6v4
 langcode: en-gb
-api_key: null
+api_key: ''
 domain: musetributeband.com
-use_oauth: false
+use_oauth: true
 api_timeout: 10
-cron: false
+cron: true
 batch_limit: 100
 api_classname: Mailchimp\Mailchimp
 test_mode: false
+enable_connected: true
+connected_id: null
+connected_paths: null
+webhook_hash: 3917b9980de641fb64a35152736cdd79
 optin_check_email_msg: 'Please check your email to confirm your subscription.'

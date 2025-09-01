@@ -13026,65 +13026,145 @@ body.page-node-type-front #set-list-block .song {
   object-fit: cover; /* Ensures the video covers the entire area */
 }
 
+/*
 #block-muse10-webform {
   max-width: 830px;
   margin-left: auto;
   margin-right: auto;
   padding: 30px;
+  background-color: rgba(0,0,0,0.7);
+  background-image: url('../images/mailing.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  h2 {
+    margin: 0 auto 20px auto;
+  }
+
+  form {
+    text-align: center;
+
+    .form-control::-webkit-input-placeholder	{color: rgba(255,255,255,0.5);} /* Chrome/Opera/Safari
+    .form-control::-moz-placeholder 					{color: rgba(255,255,255,0.5);} /* Firefox 19+
+    .form-control:-ms-input-placeholder 			{color: rgba(255,255,255,0.5);} /* IE 10+
+    .form-control:-moz-placeholder 						{color: rgba(255,255,255,0.5);} /* Firefox 18-
+
+
+    .webform-flexbox {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .webform-flex--container {
+      margin: 0;
+    }
+
+    .form-item,
+    .form-actions {
+      margin: 0;
+    }
+
+    input {
+      margin: 0;
+      border: 1px solid $white;
+      background-color: rgba(0,0,0,0.5);
+
+      &:hover,
+      &:focus,
+      &:active {
+        border: 1px solid $white;
+      }
+    }
+
+    input.button {
+      height: 44px;
+      background-color: inherit;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $white;
+        color: $black;
+      }
+    }
+
+  }
+}
+*/
+body.path-join .region-content,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist {
+  max-width: 830px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.7);
-  background-image: url("../images/mailing.jpg");
+  background-image: url("../images/mailing-2.jpg");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
 }
-#block-muse10-webform h2, #block-muse10-webform .h2 {
+body.path-join .region-content h2, body.path-join .region-content .h2,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist h2,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist .h2 {
   margin: 0 auto 20px auto;
 }
-#block-muse10-webform form {
+body.path-join .region-content .mailchimp-newsletter-mergefields,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist .mailchimp-newsletter-mergefields {
+  margin-top: 20px;
+}
+body.path-join .region-content form,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form {
   text-align: center;
   /* Chrome/Opera/Safari */
   /* Firefox 19+ */
   /* IE 10+ */
   /* Firefox 18- */
 }
-#block-muse10-webform form .form-control::-webkit-input-placeholder {
+body.path-join .region-content form .form-control::-webkit-input-placeholder,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#block-muse10-webform form .form-control::-moz-placeholder {
+body.path-join .region-content form .form-control::-moz-placeholder,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form .form-control::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#block-muse10-webform form .form-control:-ms-input-placeholder {
+body.path-join .region-content form .form-control:-ms-input-placeholder,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form .form-control:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#block-muse10-webform form .form-control:-moz-placeholder {
+body.path-join .region-content form .form-control:-moz-placeholder,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form .form-control:-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#block-muse10-webform form .webform-flexbox {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 15px;
+body.path-join .region-content form label,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form label {
+  margin-bottom: 5px;
 }
-#block-muse10-webform form .webform-flex--container {
-  margin: 0;
-}
-#block-muse10-webform form .form-item,
-#block-muse10-webform form .form-actions {
-  margin: 0;
-}
-#block-muse10-webform form input {
-  margin: 0;
+body.path-join .region-content form input,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input {
+  max-width: 400px;
+  margin: 0 auto;
   border: 1px solid #ffffff;
   background-color: rgba(0, 0, 0, 0.5);
 }
-#block-muse10-webform form input:hover, #block-muse10-webform form input:focus, #block-muse10-webform form input:active {
+body.path-join .region-content form input:hover, body.path-join .region-content form input:focus, body.path-join .region-content form input:active,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input:hover,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input:focus,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input:active {
   border: 1px solid #ffffff;
 }
-#block-muse10-webform form input.button {
+body.path-join .region-content form input.button,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input.button {
   height: 44px;
   background-color: inherit;
 }
-#block-muse10-webform form input.button:hover, #block-muse10-webform form input.button:focus, #block-muse10-webform form input.button:active {
+body.path-join .region-content form input.button:hover, body.path-join .region-content form input.button:focus, body.path-join .region-content form input.button:active,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input.button:hover,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input.button:focus,
+#block-muse10-mailchimpsubscriptionformjoinourmailinglist form input.button:active {
   background-color: #ffffff;
   color: #000000;
 }

@@ -11,7 +11,7 @@ _core:
 id: muse10_messages
 theme: muse10
 region: content
-weight: -10
+weight: -11
 provider: null
 plugin: system_messages_block
 settings:
