@@ -108,6 +108,7 @@
         "drupal/insert_view": "^2.1",
         "drupal/jquery_ui": "^1.6",
         "drupal/linkit": "^7.0",
+        "drupal/mailchimp": "^3.0",
         "drupal/media_entity_soundcloud": "^3.1",
         "drupal/metatag": "^2.1",
         "drupal/pathauto": "^1.12",
