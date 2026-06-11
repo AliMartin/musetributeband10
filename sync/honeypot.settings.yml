@@ -8,8 +8,8 @@ unprotected_forms:
   - views_exposed_form
   - honeypot_settings_form
 log: true
-element_name: email_addr
-time_limit: 5
+element_name: your_website
+time_limit: 2
 expire: 300
 form_settings:
   user_register_form: false
@@ -20,7 +20,9 @@ form_settings:
   node_front_form: false
   node_gallery_form: false
   node_landing_page_form: false
+  node_link_form: false
   node_news_form: false
   node_page_form: false
+  node_review_form: false
   node_show_form: false
   node_webform_form: false

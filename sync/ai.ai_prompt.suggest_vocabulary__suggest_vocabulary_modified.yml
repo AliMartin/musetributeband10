@@ -1,0 +1,8 @@
+uuid: b329289a-11a1-44d0-8cd2-983fd28aa919
+langcode: en-gb
+status: true
+dependencies: {  }
+id: suggest_vocabulary__suggest_vocabulary_modified
+label: 'Modified Suggest Vocabulary'
+type: suggest_vocabulary
+prompt: "Choose no more than five words to classify the following text using the same language as the input text:\r\n"

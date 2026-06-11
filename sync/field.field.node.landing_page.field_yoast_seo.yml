@@ -1,0 +1,21 @@
+uuid: 846b9c25-2d2b-4380-b5cf-651173ca55ea
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.landing_page
+  module:
+    - yoast_seo
+id: node.landing_page.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: landing_page
+label: 'Yoast SEO'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_meta_tags
     - field.field.node.landing_page.field_metatags
     - field.field.node.landing_page.field_wallpaper
+    - field.field.node.landing_page.field_yoast_seo
     - image.style.wallpaper
     - node.type.landing_page
   module:
@@ -13,6 +15,7 @@ dependencies:
     - metatag
     - text
     - user
+    - yoast_seo
 id: node.landing_page.default
 targetEntityType: node
 bundle: landing_page
@@ -24,6 +27,13 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
     region: content
   field_metatags:
     type: metatag_empty_formatter
@@ -41,6 +51,13 @@ content:
       background_image_selector: .wallpaper-container
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_yoast_seo:
+    type: yoastseo_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
     region: content
   links:
     settings: {  }

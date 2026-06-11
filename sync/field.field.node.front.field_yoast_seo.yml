@@ -1,0 +1,21 @@
+uuid: 11a57d61-0f3e-4e1c-b53d-6c34eba88fbf
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.front
+  module:
+    - yoast_seo
+id: node.front.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: front
+label: 'Yoast SEO'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo
