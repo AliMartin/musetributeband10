@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.news.field_image
     - field.field.node.news.field_meta_tags
     - field.field.node.news.field_metatags
-    - field.field.node.news.field_teaser
     - field.field.node.news.field_wallpaper
     - field.field.node.news.field_yoast_seo
     - image.style.wallpaper
@@ -52,13 +51,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 5
-    region: content
-  field_teaser:
-    type: basic_string
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    weight: 2
     region: content
   field_wallpaper:
     type: background_image_formatter

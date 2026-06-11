@@ -104,7 +104,8 @@ body.text-page .region-content {
 }
 
 
-// News
+// News / Blog
+.page-node-type-news  .field--name-body p:first-of-type,
 .field--name-field-teaser {
   font-family: "Open Sans",sans-serif;
   font-weight: 700;
