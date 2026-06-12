@@ -12550,7 +12550,7 @@ a > .ck-content code {
 }
 .ck-content .page-url-video .region-content,
 .ck-content .page-url-media .region-content,
-.ck-content .page-url-gallery .region-content {
+.ck-content .page-url-gallery .page-url-shows .region-content {
   margin: 60px auto 60px auto;
   max-width: 850px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -12560,12 +12560,12 @@ a > .ck-content code {
 }
 .ck-content .page-url-video .fluid-width-video-wrapper,
 .ck-content .page-url-media .fluid-width-video-wrapper,
-.ck-content .page-url-gallery .fluid-width-video-wrapper {
+.ck-content .page-url-gallery .page-url-shows .fluid-width-video-wrapper {
   margin-bottom: 30px;
 }
 .ck-content .page-url-video .field--name-body p:first-of-type,
 .ck-content .page-url-media .field--name-body p:first-of-type,
-.ck-content .page-url-gallery .field--name-body p:first-of-type {
+.ck-content .page-url-gallery .page-url-shows .field--name-body p:first-of-type {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 28px;
