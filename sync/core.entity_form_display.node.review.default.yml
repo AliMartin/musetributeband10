@@ -3,12 +3,10 @@ langcode: en-gb
 status: true
 dependencies:
   config:
-    - entity_browser.browser.browse_files
     - field.field.node.review.body
     - field.field.node.review.field_wallpaper
     - node.type.review
   module:
-    - entity_browser
     - path
     - text
 id: node.review.default
@@ -31,20 +29,6 @@ content:
     weight: 10
     region: content
     settings: {  }
-    third_party_settings: {  }
-  field_wallpaper:
-    type: entity_browser_file
-    weight: 1
-    region: content
-    settings:
-      entity_browser: browse_files
-      field_widget_edit: true
-      field_widget_remove: true
-      field_widget_replace: false
-      open: false
-      selection_mode: selection_append
-      view_mode: default
-      preview_image_style: thumbnail
     third_party_settings: {  }
   langcode:
     type: language_select
@@ -98,4 +82,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_wallpaper: true

@@ -3,7 +3,6 @@ langcode: en-gb
 status: true
 dependencies:
   config:
-    - entity_browser.browser.browse_files
     - field.field.node.news.body
     - field.field.node.news.field_image
     - field.field.node.news.field_meta_tags
@@ -12,7 +11,6 @@ dependencies:
     - field.field.node.news.field_yoast_seo
     - node.type.news
   module:
-    - entity_browser
     - media_library
     - metatag
     - path
@@ -53,20 +51,6 @@ content:
     settings:
       sidebar: false
       use_details: true
-    third_party_settings: {  }
-  field_wallpaper:
-    type: entity_browser_file
-    weight: 1
-    region: content
-    settings:
-      entity_browser: browse_files
-      field_widget_edit: true
-      field_widget_remove: true
-      field_widget_replace: false
-      open: false
-      selection_mode: selection_append
-      view_mode: default
-      preview_image_style: thumbnail
     third_party_settings: {  }
   field_yoast_seo:
     type: yoast_seo_widget
@@ -132,3 +116,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_metatags: true
+  field_wallpaper: true
