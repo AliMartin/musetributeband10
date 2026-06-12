@@ -228,31 +228,26 @@
   }
 }
 .ck-content h2, .ck-content .h2 {
-  font-size: calc(1.325rem + 0.9vw);
-}
-@media (min-width: 1200px) {
-  .ck-content h2, .ck-content .h2 {
-    font-size: 2rem;
-  }
-}
-.ck-content h3, .ck-content .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  .ck-content h3, .ck-content .h3 {
+  .ck-content h2, .ck-content .h2 {
     font-size: 1.75rem;
   }
 }
-.ck-content h4, .ck-content .h4 {
+.ck-content h3, .ck-content .h3 {
   font-size: calc(1.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
-  .ck-content h4, .ck-content .h4 {
+  .ck-content h3, .ck-content .h3 {
     font-size: 1.5rem;
   }
 }
-.ck-content h5, .ck-content .h5 {
+.ck-content h4, .ck-content .h4 {
   font-size: 1.25rem;
+}
+.ck-content h5, .ck-content .h5 {
+  font-size: 1.15rem;
 }
 .ck-content h6, .ck-content .form-wrapper.accordion .accordion-item h2, .ck-content .form-wrapper.accordion .accordion-item .h2, .ck-content .h6 {
   font-size: 1rem;
@@ -7690,16 +7685,16 @@ a > .ck-content code {
   font-size: calc(1.375rem + 1.5vw) !important;
 }
 .ck-content .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
-}
-.ck-content .fs-3 {
   font-size: calc(1.3rem + 0.6vw) !important;
 }
-.ck-content .fs-4 {
+.ck-content .fs-3 {
   font-size: calc(1.275rem + 0.3vw) !important;
 }
-.ck-content .fs-5 {
+.ck-content .fs-4 {
   font-size: 1.25rem !important;
+}
+.ck-content .fs-5 {
+  font-size: 1.15rem !important;
 }
 .ck-content .fs-6 {
   font-size: 1rem !important;
@@ -11074,12 +11069,9 @@ a > .ck-content code {
     font-size: 2.5rem !important;
   }
   .ck-content .fs-2 {
-    font-size: 2rem !important;
-  }
-  .ck-content .fs-3 {
     font-size: 1.75rem !important;
   }
-  .ck-content .fs-4 {
+  .ck-content .fs-3 {
     font-size: 1.5rem !important;
   }
 }
@@ -12444,48 +12436,58 @@ a > .ck-content code {
 .ck-content body.page-node-type-show .field--name-field-address p {
   margin-bottom: 0;
 }
-.ck-content h1, .ck-content .h1,
-.ck-content h2,
-.ck-content .h2,
-.ck-content h3,
-.ck-content .h3 {
+.ck-content h1, .ck-content .h1 {
   display: block;
   width: fit-content;
-  margin: 0 auto 45px;
   letter-spacing: 2px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700 !important;
   text-transform: uppercase;
   text-align: center;
 }
-.ck-content h1:before, .ck-content .h1:before, .ck-content h1:after, .ck-content .h1:after,
-.ck-content h2:before,
-.ck-content .h2:before,
-.ck-content h2:after,
-.ck-content .h2:after,
-.ck-content h3:before,
-.ck-content .h3:before,
-.ck-content h3:after,
-.ck-content .h3:after {
+.ck-content h1:before, .ck-content .h1:before, .ck-content h1:after, .ck-content .h1:after {
   display: block;
   content: "";
   width: 100%;
-  height: 6px;
   background-color: #ffffff;
 }
-.ck-content h1 a, .ck-content .h1 a,
-.ck-content h2 a,
-.ck-content .h2 a,
-.ck-content h3 a,
-.ck-content .h3 a {
+.ck-content h1 a, .ck-content .h1 a {
   text-decoration: none;
 }
-.ck-content h1 a:hover, .ck-content .h1 a:hover,
-.ck-content h2 a:hover,
-.ck-content .h2 a:hover,
-.ck-content h3 a:hover,
-.ck-content .h3 a:hover {
+.ck-content h1 a:hover, .ck-content .h1 a:hover {
   text-decoration: none;
+}
+.ck-content h1, .ck-content .h1 {
+  margin: 0 auto 45px;
+}
+.ck-content h1:before, .ck-content .h1:before, .ck-content h1:after, .ck-content .h1:after {
+  height: 6px;
+}
+.ck-content {
+  /*
+  h2 {
+    margin: 45px auto 30px;
+    &:before,
+    &:after {
+        height: 4px;
+    }
+  }
+
+  h3 {
+    margin: 45px auto 30px;
+    &:before,
+    &:after {
+        height: 3px;
+    }
+  }
+  */
+}
+.ck-content h2, .ck-content .h2,
+.ck-content h3,
+.ck-content .h3 {
+  margin: 30px auto 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 .ck-content body.text-page .region-content {
   margin: 55vh auto 60px auto;
@@ -12545,6 +12547,30 @@ a > .ck-content code {
 }
 .ck-content .page-node-type-landing-page #block-muse10-booknow {
   margin-bottom: 60px;
+}
+.ck-content .page-url-video .region-content,
+.ck-content .page-url-media .region-content,
+.ck-content .page-url-gallery .region-content {
+  margin: 60px auto 60px auto;
+  max-width: 850px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 45px 30px 45px 30px;
+  font-size: 1rem;
+  text-align: center;
+}
+.ck-content .page-url-video .fluid-width-video-wrapper,
+.ck-content .page-url-media .fluid-width-video-wrapper,
+.ck-content .page-url-gallery .fluid-width-video-wrapper {
+  margin-bottom: 30px;
+}
+.ck-content .page-url-video .field--name-body p:first-of-type,
+.ck-content .page-url-media .field--name-body p:first-of-type,
+.ck-content .page-url-gallery .field--name-body p:first-of-type {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 30px;
 }
 .ck-content .view-shows {
   max-width: 650px;
@@ -12630,7 +12656,7 @@ a > .ck-content code {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 400px;
+  max-width: 240px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
@@ -12651,7 +12677,7 @@ a > .ck-content code {
 }
 .ck-content .view-gallery .views-field-title {
   text-transform: uppercase;
-  font-size: x-large;
+  font-size: 18px;
   line-height: 1.2;
   letter-spacing: 2px;
 }
@@ -12668,18 +12694,18 @@ a > .ck-content code {
 .ck-content .view-media-page .views-row {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  max-width: 400px;
+  width: 240px;
+  max-width: 240px;
   gap: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 .ck-content .view-media-page .views-field-rendered-entity:has(.media--type-remote-video) {
-  height: 225px;
+  height: 125px;
   margin-bottom: 10px;
 }
 .ck-content .view-media-page .field--name-field-media-oembed-video iframe {
-  height: 225px !important;
+  height: 125px !important;
 }
 .ck-content .view-media-page .views-field-bundle {
   padding: 0 20px;
@@ -12692,7 +12718,7 @@ a > .ck-content code {
 .ck-content .view-media-page .views-field-name {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: x-large;
+  font-size: 18px;
   line-height: 1.2;
   padding: 0 20px;
   letter-spacing: 2px;
