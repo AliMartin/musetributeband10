@@ -13522,7 +13522,8 @@ body.page-node-type-webform .region-content article.media {
 
 .page-url-video .region-content,
 .page-url-media .region-content,
-.page-url-gallery .page-url-shows .region-content {
+.page-url-gallery .region-content,
+.page-url-shows .region-content {
   margin: 60px auto 60px auto;
   max-width: 850px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -13532,12 +13533,14 @@ body.page-node-type-webform .region-content article.media {
 }
 .page-url-video .fluid-width-video-wrapper,
 .page-url-media .fluid-width-video-wrapper,
-.page-url-gallery .page-url-shows .fluid-width-video-wrapper {
+.page-url-gallery .fluid-width-video-wrapper,
+.page-url-shows .fluid-width-video-wrapper {
   margin-bottom: 30px;
 }
 .page-url-video .field--name-body p:first-of-type,
 .page-url-media .field--name-body p:first-of-type,
-.page-url-gallery .page-url-shows .field--name-body p:first-of-type {
+.page-url-gallery .field--name-body p:first-of-type,
+.page-url-shows .field--name-body p:first-of-type {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 28px;
